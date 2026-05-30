@@ -1,188 +1,277 @@
-# PowerBI-Sales-Analytics-Dashboard
-Power BI Sales Performance Analytics Dashboard
+# 📊 Sales Analytics Dashboard | Power BI
 
-A comprehensive, enterprise-grade Power BI solution designed to transform raw sales data into actionable business intelligence. This project demonstrates advanced dashboard design, data modeling, KPI analysis, customer insights, product performance tracking, and executive-level reporting.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi\&logoColor=black)
+![Analytics](https://img.shields.io/badge/Business-Analytics-blue)
+![Data Visualization](https://img.shields.io/badge/Data-Visualization-success)
+![Status](https://img.shields.io/badge/Portfolio-Project-green)
 
-🚀 Project Overview
+## 🚀 Project Overview
 
-This Power BI project was developed to help business stakeholders monitor, analyze, and optimize sales performance across multiple years, products, customers, sales channels, and operational dimensions.
+This project demonstrates an end-to-end Sales Analytics solution built in **Microsoft Power BI**.
 
-The dashboard enables decision-makers to:
+The dashboard enables sales teams, managers, and executives to monitor revenue performance, profitability, customer behavior, product performance, and sales channel effectiveness across multiple years.
 
-Track sales, cost, profit, and margin performance
-Analyze year-over-year growth trends
-Identify top-performing customers and products
-Evaluate sales channel effectiveness
-Discover profitable product categories
-Monitor weekly and monthly sales patterns
-Support strategic business decisions through interactive reporting
+The objective is to transform raw sales data into actionable insights that support:
 
-📸 Dashboard Preview
-Executive Sales Overview
+* Revenue Growth Analysis
+* Profitability Optimization
+* Customer Performance Tracking
+* Product Performance Monitoring
+* Sales Channel Evaluation
+* Strategic Business Decision-Making
 
-Key Insights
+---
 
-✔ Multi-year sales trend analysis
+# 📌 Business Problem
 
-✔ Sales performance by Sales Group
+Organizations often struggle to answer critical sales questions:
 
-✔ Top Products analysis
+* How are sales performing over time?
+* Which customers generate the highest revenue?
+* Which products contribute most to sales?
+* What are the most profitable products and categories?
+* Which sales channels perform best?
+* How do sales trends vary by month, week, and year?
 
-✔ Top Customers ranking
+This dashboard addresses these challenges through interactive analytics and executive-level reporting.
 
-✔ Category performance overview
+---
 
-✔ Dynamic filtering across multiple dimensions
+# 🛠 Tools & Technologies
 
-Product Performance Analytics
+| Technology                 | Purpose                     |
+| -------------------------- | --------------------------- |
+| Power BI                   | Dashboard Development       |
+| Power Query                | Data Transformation         |
+| DAX                        | KPI & Business Calculations |
+| Azure                      | Source Data                 |
+| Data Modeling              | Relationships & Star Schema |
+| Interactive Visualizations | Business Reporting          |
 
-Features
-Product-level drill-down analysis
-Monthly sales comparison by year
-Customer contribution analysis
-Weekly sales trend monitoring
-Day-of-week sales performance
-Sales group distribution analysis
-Product profitability metrics
-Business Performance Summary
+---
 
-Executive Metrics
-Total Sales
-Total Cost
-Total Profit
-Profit %
-Sales by Channel
-Customer Segmentation
-Product Category Analysis
-Historical Trend Analysis
+# 📈 Dashboard 1: Executive Sales Overview
 
-🎯 Business Objectives
+### Key Insights
 
-The solution was built to answer critical business questions:
+* Multi-Year Sales Trend Analysis
+* Sales Performance by Sales Group
+* Top Products Analysis
+* Top Customers Ranking
+* Product Category Performance
+* Dynamic Filtering & Drill-Down
 
-Sales Performance
-How are sales trending over time?
-Which years delivered the highest revenue?
-What are the peak sales periods?
-Customer Analysis
-Who are the most valuable customers?
-Which customers drive the majority of revenue?
-How does customer purchasing behavior change over time?
-Product Analysis
-Which products generate the highest sales?
-Which categories contribute most to profitability?
-What products should receive additional investment?
-Channel Performance
-Which sales groups outperform others?
-How do distribution channels compare?
-Where should resources be allocated?
+### Dashboard Preview
 
-📈 Dashboard Highlights
-Sales Analysis
+![Executive Sales Overview](images/executive-sales-overview.png)
+<img width="1278" height="752" alt="Yearly Sales Analysis" src="https://github.com/user-attachments/assets/7b3eb350-7131-43e4-ae44-4aa77507a201" />
 
-The dashboard provides:
 
-Year-over-Year Growth Analysis
-Monthly Trend Analysis
-Weekly Performance Monitoring
-Sales Group Comparison
-Seasonal Trend Detection
-Customer Intelligence
+### Business Value
 
-Identify:
+✔ Monitor overall sales performance
 
-Top Revenue Customers
-Customer Concentration Risks
-High-Value Accounts
-Customer Performance Trends
-Product Intelligence
+✔ Track revenue growth trends
 
-Analyze:
+✔ Identify high-value customers
 
-Best Selling Products
-Product Revenue Contribution
-Category Performance
-Product Profitability
-Product Trend Analysis
-Profitability Analysis
+✔ Evaluate category contribution
 
-Track:
+✔ Support executive decision-making
 
-Gross Profit
-Profit Margin %
-Cost vs Revenue
-High Margin Categories
-High Margin Products
+---
 
-🛠 Technical Implementation
-Power BI Features Used
-Data Modeling
-Star Schema Design
-Fact & Dimension Tables
-Relationships Optimization
-Data Normalization
-Power Query
-Data Cleansing
-Data Transformation
-Data Shaping
-Data Preparation
-DAX Measures
+# 📅 Dashboard 2: Product Performance Analytics
 
-Examples include:
+### Features
 
-Total Sales =
-SUM(Sales[SalesAmount])
+* Product-Level Performance Analysis
+* Monthly Sales Comparison
+* Weekly Sales Trend Monitoring
+* Customer Contribution Analysis
+* Sales Group Distribution
+* Product Profitability Tracking
 
-Total Cost =
-SUM(Sales[Cost])
+### Dashboard Preview
 
-Profit =
-[Total Sales] - [Total Cost]
+![Product Performance Analytics](images/product-performance-dashboard.png)
+<img width="1276" height="743" alt="Product Sales Analysis" src="https://github.com/user-attachments/assets/3e8d0d38-7e3f-4847-ba0c-c4f9d777b73e" />
 
-Profit % =
-DIVIDE([Profit],[Total Sales],0)
 
-YoY Growth % =
-DIVIDE(
-    [Current Year Sales] - [Previous Year Sales],
-    [Previous Year Sales]
-)
-Interactive Features
-Slicers
-Drill-through
-Cross Filtering
-Dynamic Visual Interactions
-Responsive Dashboard Design
+### Insights Generated
 
-📊 Key KPIs
-KPI	Description
-Total Sales	Overall revenue generated
-Total Cost	Operational and product costs
-Profit	Net earnings
-Profit %	Profitability ratio
-Top Customers	Highest revenue contributors
-Top Products	Best-performing products
-Sales by Group	Channel-wise performance
-Category Analysis	Product category contribution
+* Best-selling products
+* Product demand patterns
+* High-margin products
+* Revenue contribution by product
+* Product growth opportunities
 
-💡 Business Value Delivered
-For Executives
-Strategic decision-making support
-Real-time performance visibility
-Revenue trend monitoring
-For Sales Teams
-Customer opportunity identification
-Product performance tracking
-Sales target monitoring
-For Operations
-Cost management insights
-Product demand analysis
-Resource allocation support
-For Management
-Data-driven planning
-Forecasting support
-Performance benchmarking
-# Sample Dashboard
-<img width="1278" height="752" alt="Yearly Sales Analysis" src="https://github.com/user-attachments/assets/599bf081-e12f-467b-8007-3f4a10f8ba1a" />
-<img width="1276" height="743" alt="Product Sales Analysis" src="https://github.com/user-attachments/assets/718096c3-fe9f-429c-8b7a-62769c9463e0" />
-<img width="1283" height="742" alt="Monthly Sales Analysis" src="https://github.com/user-attachments/assets/430bdc63-f0ef-48b6-a7fc-f819b358579e" />
+---
+
+# 📦 Dashboard 3: Business Performance Summary
+
+### Features
+
+* Executive KPI Monitoring
+* Revenue vs Cost Analysis
+* Profitability Tracking
+* Customer Segmentation
+* Product Category Analysis
+* Historical Trend Reporting
+
+### Dashboard Preview
+
+![Business Performance Summary](images/business-performance-summary.png)
+<img width="1283" height="742" alt="Monthly Sales Analysis" src="https://github.com/user-attachments/assets/ac46b932-9fe7-4e8a-9dd3-729d43cac05c" />
+
+
+### Executive KPIs
+
+* Total Sales
+* Total Cost
+* Total Profit
+* Profit %
+* Top Customers
+* Top Products
+* Sales by Group
+* Category Contribution
+
+### Business Value
+
+This dashboard provides a centralized view of organizational sales performance and profitability, enabling stakeholders to make informed business decisions.
+
+---
+
+# 📊 Key Metrics Tracked
+
+* Total Sales
+* Total Cost
+* Total Profit
+* Profit Margin %
+* Sales by Year
+* Sales by Month
+* Customer Revenue
+* Product Revenue
+* Category Revenue
+* Sales Group Performance
+
+---
+
+# 📈 Data Model Approach
+
+The solution follows a reporting-friendly analytical model:
+
+### Fact Tables
+
+* Sales Transactions
+
+### Dimension Tables
+
+* Date
+* Customer
+* Product
+* Product Category
+* Sales Group
+
+This structure improves:
+
+* Performance
+* Scalability
+* Reporting Flexibility
+
+---
+
+# 🎯 Skills Demonstrated
+
+This project showcases the following capabilities:
+
+### Power BI
+
+* Dashboard Design
+* Interactive Reporting
+* Visual Storytelling
+* Drill-through Analysis
+
+### Data Analytics
+
+* Sales Analytics
+* Profitability Analysis
+* Customer Analytics
+* Product Performance Analysis
+
+### Data Modeling
+
+* Star Schema Design
+* Relationship Management
+* Performance Optimization
+
+### DAX
+
+* Measures
+* Aggregations
+* Time Intelligence
+* KPI Development
+
+### Power Query
+
+* Data Cleaning
+* Data Transformation
+* Data Preparation
+
+---
+
+# 💡 Business Recommendations
+
+Based on sales analytics best practices:
+
+1. Focus on high-value customers for retention strategies.
+2. Increase investment in top-performing products.
+3. Monitor underperforming categories regularly.
+4. Optimize sales channels based on profitability.
+5. Use trend analysis for forecasting and planning.
+
+---
+
+# 👨‍💼 About Me
+
+I am a Data Analyst / Power BI Developer focused on transforming business data into actionable insights.
+
+### Core Skills
+
+* Power BI
+* SQL
+* Excel
+* DAX
+* Power Query
+* Data Visualization
+* Dashboard Development
+* Business Intelligence
+* Data Analytics
+
+---
+
+# 📬 Open for Opportunities
+
+I am available for:
+
+✅ Freelance Projects
+
+✅ Remote Contract Work
+
+✅ Power BI Dashboard Development
+
+✅ Data Analytics Consulting
+
+✅ Business Intelligence Projects
+
+✅ Full-Time Data Analyst Roles
+
+### Connect With Me
+
+* LinkedIn: 
+* GitHub: 
+* Email: alam.essahaz@gmail.com
+
+---
+
+⭐ If you find this project interesting, feel free to star the repository and connect with me.
